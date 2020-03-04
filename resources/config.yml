@@ -1,0 +1,21 @@
+---
+# Add your crafting recipes here
+# You can as well use datavalues with a ":" BUT you will need to make the item in two " !
+# The three rows are opened with [ and closed with ]
+# Each row take 3 items, separeted by a coma and a space.
+# here is how you make an item: ["id:damage", count (optional), "custom name", "lore"]
+# The result is only one item.
+# This is an example of customcraft:
+# It takes one water at the center (id 8), a bucket (id 325) and air (id 0) everywhere else at the bottom and it craft a water bucket called test with lore test lore.
+# You can enchant it too. Now only support vanila enchantmant. Use Name Enchant: Level
+1:
+  shape:
+        - [[0], [0], [0]]
+        - [[0], [8], [0]]
+        - [[0], ["325:0"], [0]]
+  result: ["325:8", 1, "test", "test lore"]
+  ench:
+        "UNBREAKING": 1
+        "EFFICIENCY": 10
+        "PROTECTION": 6
+...
