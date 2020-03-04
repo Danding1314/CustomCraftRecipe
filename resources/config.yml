@@ -6,7 +6,7 @@
 # here is how you make an item: ["id:damage", count (optional), "custom name", "lore"]
 # The result is only one item.
 # This is an example of customcraft:
-# It takes one water at the center (id 8), a bucket (id 325) and air (id 0) everywhere else at the bottom and it craft a water bucket called test with lore test lore.
+# It takes one water at the center (id 8), a bucket (id 325) and air (id 0) everywhere else at the bottom and it craft a water bucket called "test" with lore "test lore".
 # You can enchant it too. Now only support vanila enchantmant. Use Name Enchant: Level
 1:
   shape:
